@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Car company</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/cars.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+                <nav>
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/Logo1.webp" alt="Premium Motors"></a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cars.html" class="active">Cars</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+                <div class="hero-content">
+                    <h1>Welcome to our company</h1>
+                    <p>Driving excellence since 1995</p>
+                </div>
+    </section>
+
+    <main class="cars-page">
+                <h1>Our vehicles collection</h1>
+
+                <!-- Brand Logos Filter -->
+                <div class="brand-filter">
+                    <div class="brand-logo" data-brand="chevrolet">
+                        <img src="assets/Chevroletlogo.png" alt="Chevroletcar">
+                        <span>Chevrolet</span>
+                    </div>
+                    <div class="brand-logo" data-brand="audi">
+                        <img src="assets/Audilogo.png" alt="audi">
+                        <span>Audi</span>
+                    </div>
+                    <div class="brand-logo" data-brand="lamborghini">
+                        <img src="assets/Lamborghinilogo.jpeg" alt="lamborghini">
+                        <span>Lamborghini</span>
+                    </div>
+                    <div class="brand-logo" data-brand="ferrari">
+                        <img src="assets/Ferrarilogo.jpeg" alt="ferrari">
+                        <span>Ferrari</span>
+                    </div>
+                    <div class="brand-logo" data-brand="tesla">
+                        <img src="assets/Teslalogo.png" alt="tesla">
+                        <span>Tesla</span>
+                    </div>
+
+                </div>
+
+                <!-- cars grid -->
+                <div class="cars-grid">
+                    <!-- Chevrolet Car -->
+                    <div class="car-card" data-brand="chevrolet">
+                        <img src="assets/Chevroletcar1.jpg" alt="Chevrolet Camaro">
+                        <h2>Chevrolet Camaro</h2>
+                        <p>$42,000</p>
+                        <section class="car-details">
+                            <div class="detail-box">
+                                <h4>Engine</h4>
+                                <p>6.2L V8</p>
+                            </div>
+                            <div class="detail-box">
+                                <h4>Horsepower</h4>
+                                <p>455 hp</p>
+                            </div>
+                            <div class="detail-box">
+                                <h4>0-60 mph</h4>
+                                <p>4.0 sec</p>
+                            </div>
+                            <div class="detail-box">
+                                <h4>Transmission</h4>
+                                <p>6-speed manual</p>
+                            </div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- Chevrolet Malibu -->
+                    <div class="car-card" data-brand="chevrolet">
+                        <img src="assets/chevroletmalibu.jpg" alt="Chevrolet Malibu">
+                        <h2>Chevrolet Malibu</h2>
+                        <p>$28,500</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>1.5L Turbo</p></div>
+                            <div class="detail-box"><h4>MPG</h4><p>29 city / 36 hwy</p></div>
+                            <div class="detail-box"><h4>Seats</h4><p>5</p></div>
+                            <div class="detail-box"><h4>Drive</h4><p>FWD</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- Chevrolet Silverado -->
+                    <div class="car-card" data-brand="chevrolet">
+                        <img src="assets/cheroletsilverado.jpg" alt="Chevrolet Silverado">
+                        <h2>Chevrolet Silverado</h2>
+                        <p>$35,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>5.3L V8</p></div>
+                            <div class="detail-box"><h4>Towing Capacity</h4><p>13,300 lbs</p></div>
+                            <div class="detail-box"><h4>MPG</h4><p>23 city / 30 hwy</p></div>
+                            <div class="detail-box"><h4>Drive</h4><p>4WD</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- chevrolet corvete -->
+                    <div class="car-card" data-brand="chevrolet" id="corvete">
+                        <img src="assets/chevroletcorvete.jpg" alt="Chevrolet Corvette">
+                        <h2>Chevrolet Corvette</h2>
+                        <p>$60,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>6.2L V8</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>490 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.0 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>8-speed automatic</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+
+
+                    <!-- Audi cars -->
+                     <!-- Audi A8 -->
+                    <div class="car-card" data-brand="audi">
+                        <img src="assets/AudiA8.jpg" alt="Audi A8">
+                        <h2>Audi A8</h2>
+                        <p>Price: $86,500</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>3.0L V6</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>335 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>5.6 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>8-speed automatic</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- Audi Q7 -->
+                    <div class="car-card" data-brand="audi">
+                        <img src="assets/audiQ7.jpg" alt="Audi Q7">
+                        <h2>Audi Q7</h2>
+                        <p>Price: $55,800</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>2.0L Turbo I4</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>248 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>7.7 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>8-speed automatic</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- Audi Q5 -->
+                    <div class="car-card" data-brand="audi">
+                        <img src="assets/audiquattro.jpg" alt="Audi Q5">
+                        <h2>Audi Quattro</h2>
+                        <p>Price: $43,300</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>2.0L Turbo I4</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>261 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>5.7 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>7-speed automatic</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- Audi RS7 -->
+                    <div class="car-card" data-brand="audi" id="rs7">
+                        <img src="assets/audiRS7.jpg" alt="Audi RS7">
+                        <h2>Audi RS7</h2>
+                        <p>Price: $113,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>4.0L V8</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>591 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.5 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>8-speed automatic</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+
+                            
+
+                    <!-- Lamborghini cars -->
+                     <!-- lamboghini aventador -->
+                    <div class="car-card" data-brand="lamborghini" id="aventador">
+                        <img src="assets/lamboaventador.jpg" alt="Lamborghini Aventador">
+                        <h2>Lamborghini Aventador</h2>
+                        <p>Price: $421,321</p>
+                       <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>6.5L V12</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>730 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>2.9 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>7-speed automatic</p></div>
+                       </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- lamboghini huracan -->
+                    <div class="car-card" data-brand="lamborghini">
+                        <img src="assets/lambohuracan.jpg" alt="Lamborghini Huracan">
+                        <h2>Lamborghini Huracan</h2>
+                        <p>Price: $208,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>5.2L V10</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>631 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.2 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>7-speed automatic</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- lamboghini urus -->
+                    <div class="car-card" data-brand="lamborghini">
+                        <img src="assets/lambourus.jpg" alt="Lamborghini Urus">
+                        <h2>Lamborghini Urus</h2>
+                        <p>Price: $218,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>4.0L V8</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>641 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.2 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>8-speed automatic</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- Ferrari cars -->
+                     <!-- ferrari f80 -->
+                    <div class="car-card" data-brand="ferrari">
+                        <img src="assets/ferrarif80.jpg" alt="Ferrari Car 1">
+                        <h2>Ferrari f80</h2>
+                        <p>Price: $250,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>3.9L V8</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>710 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.0 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>7-speed dual-clutch</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- ferrari 488 -->
+                    <div class="car-card" data-brand="ferrari">
+                        <img src="assets/ferrari488.jpg" alt="Ferrari Car 2">
+                        <h2>Ferrari 488</h2>
+                        <p>Price: $250,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>3.9L V8</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>661 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.0 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>7-speed dual-clutch</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- ferrari portofino -->
+                    <div class="car-card" data-brand="ferrari">
+                        <img src="assets/ferraripor.jpg" alt="Ferrari Car 3">
+                        <h2>Ferrari Portofino</h2>
+                        <p>Price: $215,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>3.9L V8</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>591 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.5 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>7-speed dual-clutch</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- Tesla cars -->
+                     <!-- model s -->
+                    <div class="car-card" data-brand="tesla">
+                        <img src="assets/tesmodels.jpg" alt="Tesla Car 1">
+                        <h2>Tesla model S</h2>
+                        <p>Price: $60,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>Electric</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>670 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4>2.5 sec</div>
+                            <div class="detail-box"><h4>Transmission</h4><p>Single-speed</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- model 3 -->
+                    <div class="car-card" data-brand="tesla">
+                        <img src="assets/tesmodel3.jpg" alt="Tesla Car 2">
+                        <h2>Tesla model 3</h2>
+                        <p>Price: $40,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>Electric</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>283 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>5.3 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>Single-speed</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                    <!-- model x -->
+                    <div class="car-card" data-brand="tesla">
+                        <img src="assets/tesmodelx.jpg" alt="Tesla Car 3">
+                        <h2>Tesla model X</h2>
+                        <p>Price: $90,000</p>
+                        <section class="car-details">
+                            <div class="detail-box"><h4>Engine</h4><p>Electric</p></div>
+                            <div class="detail-box"><h4>Horsepower</h4><p>670 hp</p></div>
+                            <div class="detail-box"><h4>0-60 mph</h4><p>3.8 sec</p></div>
+                            <div class="detail-box"><h4>Transmission</h4><p>Single-speed</p></div>
+                        </section>
+                        <button>Explore More</button>
+                    </div>
+                </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/Logo1.webp" alt="Premium Motors">
+                    <p>Redefining automotive luxury since 1995</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cars.html">Inventory</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Tassia, Nairobi Kenya</p>
+                    <p><i class="fas fa-phone"></i> +254 769 3674 45</p>
+                    <p><i class="fas fa-envelope"></i> bisera9954@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="year"></span> Premium Motors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/cars.js"></script> 
+</body>
+</html>
