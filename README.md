@@ -48,11 +48,11 @@
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/car-company-website.git
+   git clone https://github.com/Socee-tech/feb-2025-final-project-and-deployment-Socee-tech.git
    ```
 2. Open the project folder:
    ```bash
-   cd car-company-website
+   cd feb-2025-final-project-and-deployment-Socee-tech
    ```
 3. Open `index.html` in your browser to view the website.
 
