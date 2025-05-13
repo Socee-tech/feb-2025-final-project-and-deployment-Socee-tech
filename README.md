@@ -57,5 +57,5 @@
 3. Open `index.html` in your browser to view the website.
 
 **Deployment**
-The website is deployed and accessible at: Live Demo
+The website is deployed and accessible at: https://socee-tech.github.io/feb-2025-final-project-and-deployment-Socee-tech/
 
